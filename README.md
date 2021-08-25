@@ -29,4 +29,4 @@ $ make repl
 ```
 
 ## Goals
-[ ] Add support to Pluto.jl 
+- [ ] Add support to Pluto.jl 
