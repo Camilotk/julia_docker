@@ -21,3 +21,12 @@ $ make container
 ```terminal
 $ make run
 ```
+
+## Using the REPL
+For use the container image REPL (Read Evaluate Print Loop) just use the following command:
+```terminal
+$ make repl
+```
+
+## Goals
+[ ] Add support to Pluto.jl 
