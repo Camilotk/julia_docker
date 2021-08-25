@@ -4,7 +4,7 @@ build:
 
 # build a container called julia_docker
 container:
-	@docker run -it --name julia_docker -v /home/cazevedo/Experiments/Julia/helloworld:/home/julia/project julia:latest
+	@docker run -it --name julia_docker -v $(shell pwd):/home/julia/project julia:latest
 
 # starts the julia_docker repl
 repl:
